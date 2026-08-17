@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="18"
+        android:translateY="18"
+        android:scaleX="0.666"
+        android:scaleY="0.666">
+        <!-- Film slate / Studio frame -->
+        <path
+            android:pathData="M24,20 L84,20 C88.4,20 92,23.6 92,28 L92,80 C92,84.4 88.4,88 84,88 L24,88 C19.6,88 16,84.4 16,80 L16,28 C16,23.6 19.6,20 24,20 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="16"
+                    android:startY="20"
+                    android:endX="92"
+                    android:endY="88"
+                    android:type="linear">
+                    <item android:color="#241B4D" android:offset="0.0" />
+                    <item android:color="#141B38" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Remix double curved arrows / loop -->
+        <path
+            android:pathData="M38,36 L62,36 C67.5,36 72,40.5 72,46 L72,48 L78,48 L68,60 L58,48 L64,48 L64,46 C64,44.9 63.1,44 62,44 L38,44 L38,36 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="38"
+                    android:startY="36"
+                    android:endX="78"
+                    android:endY="60"
+                    android:type="linear">
+                    <item android:color="#8B5CF6" android:offset="0.0" />
+                    <item android:color="#A78BFA" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M70,72 L46,72 C40.5,72 36,67.5 36,62 L36,60 L30,60 L40,48 L50,60 L44,60 L44,62 C44,63.1 44.9,64 46,64 L70,64 L70,72 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="30"
+                    android:startY="48"
+                    android:endX="70"
+                    android:endY="72"
+                    android:type="linear">
+                    <item android:color="#06B6D4" android:offset="0.0" />
+                    <item android:color="#38BDF8" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Center play & AI spark -->
+        <path
+            android:pathData="M50,49 L60,54 L50,59 Z"
+            android:fillColor="#FBBF24" />
+        <!-- Top right AI magic star -->
+        <path
+            android:pathData="M78,24 L80,30 L86,32 L80,34 L78,40 L76,34 L70,32 L76,30 Z"
+            android:fillColor="#EC4899" />
+    </group>
+</vector>

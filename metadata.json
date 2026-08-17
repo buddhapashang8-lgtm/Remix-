@@ -1,0 +1,7 @@
+{
+  "name": "Viral Remix Studio",
+  "description": "Analyze the idea. Remix the concept. Create something new with deep multimodal video understanding and structural AI remixing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
